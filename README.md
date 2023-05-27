@@ -7,6 +7,8 @@ for Android:
 ```css
 @import url('https://stevmaho.github.io/Funskin/Android.css');
 ```
+
+for Desktop:
 ```css
 @import url('https://stevmaho.github.io/Funskin/Desktop/1440p.css');
 ```
