@@ -11,5 +11,5 @@ for Android:
 
 for windows: 
 ```css
-@import url('https://stevmaho.github.io/Funskin/Windows.css');
+@import url('https://stevmaho.github.io/Funskin/Desktop.css');
 ```
