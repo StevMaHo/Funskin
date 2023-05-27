@@ -15,6 +15,9 @@ height: 100%; display: flex; align-items: center; Background: Black; justify-con
 .backgroundContainer.withBackdrop {
     background-color: rgba(0, 0, 0, 0.76); background-size: contain; }
 
+/*Hide Cast & Crew*/
+#castCollapsible { display: none; }
+
 /* Shrink and square (or round) cast thumnails */
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 3.5cm !important; font-size: 100% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 3.5cm !important; font-size: 80% !important;}
