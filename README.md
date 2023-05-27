@@ -7,9 +7,11 @@ for Android:
 ```css
 @import url('https://stevmaho.github.io/Funskin/Android.css');
 ```
+```css
+@import url('https://stevmaho.github.io/Funskin/Desktop/1440p.css');
+'''
 
 
-Copy Paste Code for Windows (i dont get that to Work with a Link)
 
 
 
