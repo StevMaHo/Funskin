@@ -19,6 +19,17 @@ height: 100%; display: flex; align-items: center; Background: Black; justify-con
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 3.5cm !important; font-size: 100% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 3.5cm !important; font-size: 80% !important;}
 
+/* Floating progress bar */
+.innerCardFooter {
+    bottom: 3% !important;
+    width: 95% !important;
+    margin: auto !important;
+    border-radius: 100px !important;
+}
+.itemProgressBar {
+    height: 5px !important;
+}
+
 /*Make watched icon Green*/
 .playedIndicator {background:  #5dd000; box-shadow: none;}
 .countIndicator {box-shadow: none;}
