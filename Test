@@ -1,3 +1,24 @@
+/*Comics Reader fix*/
+#comicsPlayer .swiper-slide-img { max-height: 100%; max-width: 100%;}
+#comicsPlayer .slider-zoom-container {
+text-align: center;
+height: 100%; display: flex; align-items: center; Background: Black; justify-content: center;}
+.actionButtonIcon { color: white; }
+
+/*Genre unterm titel wie 10.7.7 */
+.detailSection { display: flex; flex-direction: column; }
+.itemDetailsGroup { order: 1; }
+.trackSelections { order: 2; }
+.detailSectionContent { order: 3; }
+.trackSelections { margin-top: 0.37em ;}
+.layout-desktop .detailRibbon { height: 4.2em; margin-top: -7.2em; }
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.76); background-size: contain; }
+    
+    /* Shrink and square (or round) cast thumnails */
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 3.5cm !important; font-size: 100% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 3.5cm !important; font-size: 80% !important;}
+
 /* Increase size of Jellyfin logo */
 .layout-desktop .pageTitleWithLogo {
     margin-left: 15px !important;
