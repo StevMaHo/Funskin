@@ -27,3 +27,12 @@
 /* Bilder der Darsteller verkleinern */
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 3.5cm !important; font-size: 100% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 3.5cm !important; font-size: 80% !important;}
+
+/* Filme display bearbeitet grund dinge*/
+.nameContainer {font-size: 120%; }
+.overview {display: block}
+#similarCollapsible { Display: none;}
+.fab, .raised { background: transparent; }
+.itemDetailsGroup .itemMiscInfo {font-size: 105%; }
+.itemTags { Display: none; }
+.starRatingContainer { Display: none; }
