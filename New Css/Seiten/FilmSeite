@@ -1,3 +1,13 @@
+/*Genre unterm titel wie 10.7.7 */
+.detailSection { display: flex; flex-direction: column; }
+.itemDetailsGroup { order: 1; }
+.trackSelections { order: 2; }
+.detailSectionContent { order: 3; }
+.trackSelections { margin-top: 0.37em ;}
+.layout-desktop .detailRibbon { height: 4.2em; margin-top: -7.2em; }
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.76); background-size: contain; }
+
 /*Bearbeite Film Seite*/
 .detailLogo {display: none;}
 .detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
