@@ -31,3 +31,57 @@ background: linear-gradient( to bottom, transparent ) !important; box-shadow: no
 .cardOverlayFab-primary {background-color: #00000000;}
 .cardOverlayButtonIcon {background-color: #00000000 !important;}
 .cardOverlayContainer {background-color: rgba(0, 0, 0, 0.7);}
+
+/*Change the color/transparency of the side menu drawer bar*/
+    .mainDrawer,
+    .drawer-open {
+              background-color: rgba(0,0,0,.8);
+    }
+    
+    /*Change the color/transparency of context menu containers*/
+    .backgroundContainer,
+    .dialog,
+    .nowPlayingPlaylist,
+    .nowPlayingContextMenu
+    html {
+              background-color: rgba(0,0,0,.7);
+    }
+    
+    /*Change the color/transparency, border thickness, and border color of buttons*/
+    .raised {
+         background: rgba(0,0,0,.45);
+         border: 0.07em solid rgba(250,250,250,.4);
+    }
+    
+    /*Change the color/transparency, border thickness, and border color of non-clickable boxes*/
+    .paperList {
+         background-color: rgba(0,0,0,.45);
+         border: 0.07em solid rgba(250,250,250,.4);
+    }
+    
+    /*Change the color/transparency, border thickness, and border color of text and mouse input areas*/
+    .fab,
+    .emby-input,
+    .emby-textarea,
+    .emby-select-withcolor {
+              background: rgba(0,0,0,.55);
+              border: 0.1em solid rgba(250,250,250,.4);
+    }
+    
+    /*Change the color/transparency of hover effects over buttons, select boxes, and the side menu drawer bar*/
+    .emby-button:hover,
+    .emby-button.block:hover,
+    .navMenuOption:hover,
+    .emby-select-withcolor:hover,
+    .listItem:hover {        
+              background: rgba(126,126,126,.6);
+    }
+    
+    /*Change the color/transparency of hover effects over buttons that don't have boxes (i.e title links, genre links)*/
+    /*The purpose of this block is to remove unnecessary hover effects (make them transparent)*/
+    /*The .clearLink:hover tag applies to buttons that don't need an extra hover effect due its background being highlighted during a hover*/
+    .button-link:hover,
+    .sectionTitleTextButton:not(.padded-left):hover,
+    .clearLink:hover {
+              background: rgba(0,0,0,0);
+    }
