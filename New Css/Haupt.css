@@ -1,3 +1,7 @@
+@use "Seiten";
+
+
+
 /*Make watched icon Green*/
 .playedIndicator {background:  #5dd000; box-shadow: none;}
 .countIndicator {box-shadow: none;}
