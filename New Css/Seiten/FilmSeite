@@ -23,3 +23,7 @@
     .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
     .detailPageWrapperContainer {margin-top: 5em;}
 }
+
+/* Bilder der Darsteller verkleinern */
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 3.5cm !important; font-size: 100% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 3.5cm !important; font-size: 80% !important;}
