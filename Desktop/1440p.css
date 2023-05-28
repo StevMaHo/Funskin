@@ -5,6 +5,13 @@ text-align: center;
 height: 100%; display: flex; align-items: center; Background: Black; justify-content: center;}
 .actionButtonIcon { color: white; }
 
+/* Increase size of Jellyfin logo */
+.layout-desktop .pageTitleWithLogo {
+    margin-left: 15px !important;
+    height: 40px !important;
+    margin-top: 5px !important;
+}
+
 /*Genre unterm titel wie 10.7.7 */
 .detailSection { display: flex; flex-direction: column; }
 .itemDetailsGroup { order: 1; }
@@ -22,9 +29,10 @@ height: 100%; display: flex; align-items: center; Background: Black; justify-con
 /* Floating progress bar */
 .innerCardFooter {
     bottom: 3% !important;
-    width: 95% !important;
+    width: 90% !important;
     margin: auto !important;
     border-radius: 100px !important;
+    background-color: transparent;
 }
 .itemProgressBar {
     height: 5px !important;
@@ -36,7 +44,73 @@ height: 100%; display: flex; align-items: center; Background: Black; justify-con
     
 /*Make the red checkmarks Green*/
 .playstatebutton-icon-played {color:  #5dd000;}
-    
+
+/* Rounded left drawer buttons */
+.navMenuOption,
+.navMenuOption:hover,
+.navMenuOption-selected {
+    border-radius: 100px !important;
+    width: 85% !important;
+    margin: auto !important;
+    text-align: center !important;
+    height: 45px !important;
+}
+.navMenuOption:hover:not(.navMenuOption-selected) {
+    background-color: rgba(44, 44, 44, 0.7);
+}
+ /* Custom button color */
+.navMenuOption-selected {
+    background: rgba(33, 149, 243, 0.2) !important;
+    color: rgb(33, 149, 243) !important;
+    backdrop-filter: blur(50px) !important;
+}
+   
+/* Fix for header buttons */
+.layout-desktop .emby-button-foreground {
+    top: -9px !important;
+}
+
+.layout-desktop .skinHeader {
+    padding-top: 1.5em !important;
+}
+/* Rounded header buttons */
+.headerTabs,
+.headerRight {
+    background-color:rgba(35, 35, 35, 0.5) !important;
+    border-radius: 50px !important;
+    backdrop-filter: blur(50px) !important;
+}
+.layout-desktop .headerTabs,
+.layout-desktop .headerRight {
+    margin-bottom: 10px !important;
+}
+/* Button height */
+.headerRight,
+.emby-tab-button {
+    height: 45px !important;
+}
+/* Lower header and add padding to right buttons */
+.layout-desktop .headerRight {
+    padding: 0px 5px !important;
+}
+/* Move left header back up */
+.layout-desktop .headerLeft {
+    position: relative !important;
+    top: -17px !important;
+}
+/* Mobile fixes */
+.layout-mobile .headroom--unpinned {
+    transform: translateY(-50%);
+}
+.layout-mobile .sectionTabs {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+}
+.layout-mobile .emby-button-foreground {
+    top: -2px !important;
+}
+
 /* Filme display bearbeitet grund dinge*/
 .nameContainer {font-size: 120%; }
 .overview {display: block}
@@ -93,6 +167,13 @@ background: linear-gradient( to bottom, transparent ) !important; box-shadow: no
 }
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none;
+}
+
+/* Add card around top-right buttons */
+.layout-desktop .mainDetailButtons {
+    background: rgba(35, 35, 35, 0.5) !important;
+    border-radius: 100px !important;
+    backdrop-filter: blur(10px) !important;
 }
 
 /*Minimalistic play buttons*/
@@ -190,4 +271,50 @@ background: linear-gradient( to bottom, transparent ) !important; box-shadow: no
 @media all and (max-width: 32em) {
     .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
     .detailPageWrapperContainer {margin-top: 5em;}
+}
+
+/* Settings and dashboard modifications */
+.emby-input,
+.emby-textarea,
+.paperList,
+.listItem:hover,
+.subtitleappearance-preview {
+    border-radius: 15px !important;
+}
+.button-submit,
+.emby-select,
+.checkboxOutline,
+.btnRefresh,
+#btnShutdown,
+.raised {
+    border-radius: 100px !important;
+}
+/* Modify username placement on profile page */
+.layout-desktop #userProfilePage .readOnlyContent div:not([class]), div[class=""]{
+    align-items: initial !important;
+}
+.layout-desktop .username {
+    margin: 0px 0px 10px 10px !important;
+}
+/* Red shutdown button */
+#btnShutdown {
+    background: #AE3739 !important;
+}
+/* Remove border under certain dashboard items */
+.listItem-border {
+    border: 0 !important;
+}
+/* Add padding to list items */
+.layout-desktop .listItem {
+    padding-left: 15px !important;
+}
+/* Rounded dashboard cards */
+.cardBox {
+    border-radius: 15px !important;
+}
+/* Removed ugliness of border-card styling */
+.layout-desktop fieldset.verticalSection-extrabottompadding {
+    border-radius: 15px !important;
+    border-color: #3B3B3B !important;
+    padding: 10px 35px !important;
 }
