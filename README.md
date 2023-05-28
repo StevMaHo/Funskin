@@ -12,8 +12,8 @@ for Desktop:
 ```css
 @import url('https://stevmaho.github.io/Funskin/Desktop/1440p.css');
 ```
-
-
-
-
+New Css (still made in progress)
+```css
+@import url('https://stevmaho.github.io/Funskin/New Css/Main.css');
+```
 
