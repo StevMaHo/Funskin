@@ -4,3 +4,7 @@
 
 /*Make the red checkmarks Green*/
 .playstatebutton-icon-played {color:  #5dd000;}
+
+/*Rounded corners and square hover buttons*/
+.cardContent-button,  .cardContent-shadow,  .itemDetailImage, .cardOverlayButton-hover, .cardOverlayContainer, .cardImageContainer, .cardPadder, .listItemImage, .listItemImageButton, .listItemButton,
+.headerButton, .paper-icon-button-light, .innerCardFooter, .blurhash-canvas, .actionSheetMenuItem:hover, .dialog {border-radius: 12px !important;}
