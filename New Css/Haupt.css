@@ -1,3 +1,6 @@
 /*Make watched icon Green*/
 .playedIndicator {background:  #5dd000; box-shadow: none;}
 .countIndicator {box-shadow: none;}
+
+/*Make the red checkmarks Green*/
+.playstatebutton-icon-played {color:  #5dd000;}
