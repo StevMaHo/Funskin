@@ -8,3 +8,17 @@
 /*Rounded corners and square hover buttons*/
 .cardContent-button,  .cardContent-shadow,  .itemDetailImage, .cardOverlayButton-hover, .cardOverlayContainer, .cardImageContainer, .cardPadder, .listItemImage, .listItemImageButton, .listItemButton,
 .headerButton, .paper-icon-button-light, .innerCardFooter, .blurhash-canvas, .actionSheetMenuItem:hover, .dialog {border-radius: 12px !important;}
+
+/* Top menu transparency */
+.skinHeader { background: linear-gradient(rgb(34,34,34), transparent) !important;}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {
+background: linear-gradient( to bottom, transparent ) !important; box-shadow: none !important; transform: none !important; }
+  
+/* Adjust Topbar Text*/
+.headerTabs.sectionTabs {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 110%;
+  text-size-adjust: 110%;
+  font-size: 115%;
+}
