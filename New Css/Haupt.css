@@ -26,3 +26,8 @@ background: linear-gradient( to bottom, transparent ) !important; box-shadow: no
   text-size-adjust: 110%;
   font-size: 115%;
 }
+
+/*Minimalistic play buttons*/
+.cardOverlayFab-primary {background-color: #00000000;}
+.cardOverlayButtonIcon {background-color: #00000000 !important;}
+.cardOverlayContainer {background-color: rgba(0, 0, 0, 0.7);}
