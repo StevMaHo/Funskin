@@ -61,7 +61,7 @@ background: linear-gradient( to bottom, transparent ) !important; box-shadow: no
 .itemBackdrop {-webkit-mask: linear-gradient(to bottom, black 68%,transparent); mask: linear-gradient(to bottom, black 68%,transparent); }
 
 #loginPage {
-  background: url('https://konachan.com/sample/e8b986828870e2c88ef8c59ee66ac73d/Konachan.com%20-%20336180%20sample.jpg');
+  background: url('');
   background-size: cover;
 }
 
